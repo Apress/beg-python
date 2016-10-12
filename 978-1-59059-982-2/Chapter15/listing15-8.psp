@@ -1,0 +1,12 @@
+<%
+from random import choice
+adjectives = ['beautiful', 'cruel']
+%>
+<html>
+  <head>
+    <title>Hello</title>
+  </head>
+  <body>
+  <p>Hello, <%=choice(adjectives)%> world. My name is Mr. Gumby.</p>
+  </body>
+</html>
